@@ -1,0 +1,313 @@
+*{
+	margin: 0;
+	background-color: black;
+}
+.nav{
+	background-color: black;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.nav_top{
+	position: fixed;
+	display: flex;
+	top: 0;
+	border-bottom: solid purple;
+}
+.nav_side{
+	margin-left: 700px;
+	padding-top: 25px;
+}
+.nav_side a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-left: 20px;
+	text-align: right;
+}
+.logo h1{
+	text-align: left;
+	margin-left: 50px;
+	padding-top: 10px;
+	color: white;
+	font-size: 30px;
+}
+.section1 img{
+	width: 600px;
+	height: 400px;
+	float: right;
+	margin-top: 0;
+	margin-right: 100px;
+	border-radius: 40%;
+}
+.section1 h2{
+	margin-top: 160px;
+	font-size: 40px;
+	text-align: left;
+	margin-left: 200px;
+	color: gold;
+}
+.section1 h2 span{
+	margin-left: 60px;
+}
+.section1 p{
+	color: white;
+	font-size: 22px;
+	margin-left: 40px;
+	width: 50%;
+	text-align: center; 
+}
+.section2 h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+.section2 #section2{
+	display: flex;
+}
+.section2 #section2 img{
+	width: 600px;
+	height: 400px;
+	margin-left: 100px;
+	border-radius: 40%;
+}
+.section2 #section2 p{
+	color: white;
+	font-size: 22px;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+.section3 h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+.section3 .images .container{
+	display: flex;
+}
+.section3 .images .container h3{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.section3 .images .container img{
+	padding: 10px;
+	border-radius: 30%;
+	width: 100%;
+	width: 315px;
+	height: 300px;
+}
+.html_form{
+	padding: 50px;
+	padding-bottom: 0px;
+}
+.html_form form{
+	margin: 20px;
+	padding: 20px;
+	margin-left: 18%;
+	box-shadow: 1px 1px 16px gray;
+	border-radius: 10px;
+	width: 60%;
+	background-color: white;
+}
+.html_form form input{
+	width: 90%;
+	margin: 10px;
+	padding: 5px;
+	background-color: gold;
+	border-color: black;
+	border-radius: 5px;
+}
+.html_form form select{
+	width: 90%;
+	margin: 10px;
+	padding: 5px;
+	background-color: gold;
+	border-color: black;
+	border-radius: 5px;
+}
+.html_form form select option{
+	color: white;
+}
+.html_form form textarea{
+	width: 90%;
+	margin: 10px;
+	padding: 5px;
+	background-color: gold;
+	border-color: black;
+	border-radius: 5px;
+}
+.html_form .btn{
+	border-color: white;
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin: 30px;
+}
+.section4{
+	padding: 0px 100px;
+	padding-bottom: 50px;    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: black;
+}
+.section4 .content{
+	max-width: 700px;
+	text-align: center;
+}
+.section4 .content h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+#container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+#container .contactinfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+#container .contactinfo .box{
+	padding: 15px 0;
+	display: flex;
+}
+#container .contactinfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background-color: purple;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 20px;
+}
+#container .contactinfo .box .icon i{
+	background-color: purple;
+}
+#container .contactinfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: white;
+	flex-direction: column;
+	font-weight: 300;
+}
+#container .contactinfo .box .text h3{
+	font-weight: 500;
+	color: white;
+	font-size: 20px;
+}
+.contactform{
+	width: 40%;
+	padding: 40px;
+	background-color: white;
+}
+.contactform h2{
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	font-weight: 500;
+}
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	background-color: white;
+}
+.contactform .inputbox input{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	background-color: white;
+	border:none;
+	border-bottom: solid black;
+	outline: none;
+	resize: none;
+}
+.contactform .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	background-color: white;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: black;
+}
+.contactform .inputbox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	background-color: white;
+	border-bottom: solid black;
+	outline: none;
+	resize: none;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+	color: red;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+	width: 100px;
+	background: black;
+	color: white;
+	font-weight: 5;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+.section5 .footer{
+	border-top: solid purple;
+	display: flex;
+	margin: 5px;
+	bottom: 0;
+}
+.footer .f1{
+	float: left;
+	text-align: left;
+	margin-left: 150px;
+	color: white;
+	width: 400px;
+	bottom: 0;
+}
+.footer .f1 a{
+	text-decoration: none;
+	color: white;
+}
+.footer .f1 a:hover{
+	color: gold;
+}
+.section5 footer .copyright p{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
